@@ -1,0 +1,186 @@
+body p {
+    color: gray;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    color: palevioletred;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+section {
+    width: 100%;
+    height: 800px;
+}
+
+#header {
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+
+.header-half-width h1 {
+    padding-top: 20%;
+}
+
+.header-half-width img {
+    width: 90%;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(45deg, tomato, #DE3163);
+    border-radius: 5px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+
+/*header end*/
+
+.middle-half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.middle-half-width h1 {
+    padding-top: 20%;
+}
+
+.middle-half-width img {
+    width: 100%;
+    height: 600px;
+    padding-left: 15%;
+}
+
+.button2 {
+    height: 50px;
+    width: 150px;
+}
+
+#middle {
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*middle end*/
+
+#work-part {
+    background-image: url(personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+}
+
+.work {
+    padding-top: 7%;
+    text-align: center;
+    color: black;
+}
+
+.latest-work2 {
+    width: 80%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 11%;
+}
+
+.latest-work2 img {
+    width: 33%;
+    height: 300px;
+    float: left;
+}
+
+
+/* latest work end*/
+
+.Client-feedback {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.Client-feedback h2 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Client-feedback h5 {
+    padding-top: 5%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Client-feedback h6 {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Client-feedback p {
+    color: black;
+    padding-top: 2%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Message {
+    text-align: center;
+    margin-top: 6%;
+    padding-top: 2%;
+    background-color: mediumorchid;
+    margin-right: 30%;
+    margin-left: 30%;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.Message h3 {
+    color: white;
+}
+
+.Message p {
+    color: white;
+}
+
+#Footer {
+    height: 680px;
+    background-image: url(personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.last-p {
+    padding-top: 10%;
+    text-align: center;
+    padding-bottom: 8%;
+}
